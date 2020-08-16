@@ -1,6 +1,8 @@
 # nifi-scripting-patterns
 scripting patterns that let build processor for InvokeSriptedProcessor in easy way
 
+**WARNING**: not working project, just a concept
+
 simple example of idea
 
 		Function<InputStream, Supplier<Map<String, Object>>> JSON_BY_LINE_READER = (InputStream in) -> ()-> Map.of("key", "value");
